@@ -11,10 +11,11 @@ public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", Item::new);
     public static final Item BACON = registerItem("bacon", (settings) -> new Item(settings.food(ModFoodComponents.Bacon)));
 
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", Item::new);
+
     public static Item registerItem(String name) {
         return registerItem(name, Item::new);
     }
-
     public static <T extends Item> T registerItem(String name, ItemFactory<T> factory) {
         RegistryKey<Item> key = RegistryKey.of(RegistryKeys.ITEM, Identifier.of("yorcraft",name));
        return net.minecraft.registry.Registry.register(
