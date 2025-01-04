@@ -1,12 +1,10 @@
 {
   "item.yorcraft.pink_garnet": "Pink Garnet",
   "item.yorcraft.bacon": "Bacon",
-  "item.yorcraft.tomato_seeds": "Tomato Seeds",
 
   "block.yorcraft.carrot_crate": "Carrot Crate",
   "item.yorcraft.carrot_crate": "Carrot Crate",
 
-  "block.yorcraft.tomato_crop": "Tomato Crop",
 
   "itemgroup.yorcraft.yorcraft_items_group": "Yorcraft"
 }

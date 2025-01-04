@@ -19,7 +19,7 @@ public class Yorcraft implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 
-		ModItems.initialize();
+		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
 	}

@@ -19,7 +19,6 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.BACON);
-                        entries.add(ModItems.TOMATO_SEEDS);
 
                         entries.add(ModBlocks.CARROT_CRATE);
 
