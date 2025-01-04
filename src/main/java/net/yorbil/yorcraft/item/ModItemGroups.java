@@ -7,7 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import net.yorbil.yorcraft.Block.ModBlocks;
+import net.yorbil.yorcraft.block.ModBlocks;
 import net.yorbil.yorcraft.Yorcraft;
 
 public class ModItemGroups {

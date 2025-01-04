@@ -1,7 +1,7 @@
 package net.yorbil.yorcraft;
 
 import net.fabricmc.api.ModInitializer;
-import net.yorbil.yorcraft.Block.ModBlocks;
+import net.yorbil.yorcraft.block.ModBlocks;
 import net.yorbil.yorcraft.item.ModItemGroups;
 import net.yorbil.yorcraft.item.ModItems;
 

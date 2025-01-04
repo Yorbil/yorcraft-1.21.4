@@ -1,4 +1,4 @@
-package net.yorbil.yorcraft.Block;
+package net.yorbil.yorcraft.block;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
