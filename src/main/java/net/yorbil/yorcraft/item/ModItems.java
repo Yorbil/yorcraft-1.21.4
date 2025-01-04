@@ -11,15 +11,15 @@ public class ModItems {
 
     // Enregistrement
 
-    // Enregistrement d'items simples.
+    // Enregistrement des items simples.
     public static final Item PINK_GARNET = registerItem("pink_garnet", Item::new);
 
-    // Enregistrement de d'items complexes.
+    // Enregistrement des items complexes.
     public static final Item BACON = registerItem("bacon", (settings) -> new Item(settings.food(ModFoodComponents.Bacon)));
 
 
 
-    // Méthodes
+    // Méthode
 
     // Méthode d'enregistrement des items simples.
     public static Item registerItem(String name) {

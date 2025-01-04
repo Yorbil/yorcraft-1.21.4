@@ -12,7 +12,7 @@ import net.yorbil.yorcraft.Yorcraft;
 
 public class ModItemGroups {
 
-    public static final ItemGroup Yorcraft_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup YORCRAFT_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(Yorcraft.MOD_ID, "yorcraft_items_group"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.BACON))
                     .displayName(Text.translatable("itemgroup.yorcraft.yorcraft_items_group"))
@@ -20,7 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.BACON);
 
-                        entries.add(ModBlocks.CARROT_CRATE);
+                        //entries.add(ModBlocks.CARROT_CRATE);
 
                     }).build());
 
