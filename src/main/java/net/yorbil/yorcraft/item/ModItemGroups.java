@@ -20,7 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.BACON);
 
-                        //entries.add(ModBlocks.CARROT_CRATE);
+                        entries.add(ModBlocks.CARROT_CRATE.getRight());
 
                     }).build());
 
