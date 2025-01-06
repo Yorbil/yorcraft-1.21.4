@@ -2,9 +2,7 @@ package net.yorbil.yorcraft;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.yorbil.yorcraft.datagen.ModBlockTagProvider;
-import net.yorbil.yorcraft.datagen.ModItemTagProvider;
-import net.yorbil.yorcraft.datagen.ModLootTableProvider;
+import net.yorbil.yorcraft.datagen.*;
 
 public class YorcraftDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +12,7 @@ public class YorcraftDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModBlockTagProvider::new);
 		//pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModLootTableProvider::new);
+		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }

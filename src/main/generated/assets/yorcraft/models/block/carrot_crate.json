@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "yorcraft:block/carrot_crate_bottom",
+    "side": "yorcraft:block/carrot_crate_side",
+    "top": "yorcraft:block/carrot_crate_top"
+  }
+}
