@@ -1,11 +1,20 @@
 package net.yorbil.yorcraft.item;
 
+import net.fabricmc.fabric.api.item.v1.FabricItem;
+import net.minecraft.block.Blocks;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.ConsumableComponents;
+import net.minecraft.component.type.PotionContentsComponent;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.PotionItem;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 import net.yorbil.yorcraft.Yorcraft;
+import net.minecraft.item.Items;
+import net.yorbil.yorcraft.block.ModBlocks;
 
 public class ModItems {
 
@@ -13,11 +22,17 @@ public class ModItems {
 
     // Enregistrement des items simples.
     public static final Item PINK_GARNET = registerItem("pink_garnet", Item::new);
+    public static final Item WHEAT_FLOUR = registerItem("wheat_flour", Item::new);
+    public static final Item DOUGH = registerItem("dough", Item::new);
 
     // Enregistrement des items complexes.
     public static final Item BACON = registerItem("bacon", (settings) -> new Item(settings.food(ModFoodComponents.Bacon)));
 
+    public static final Item TOMATO = registerItem("tomato", (settings) -> new Item(settings.food(ModFoodComponents.Tomato)));
+    public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", settings -> new BlockItem(ModBlocks.TOMATO_CROP, settings.useItemPrefixedTranslationKey()));
 
+
+    //.recipeRemainder(Items.DIAMOND)
 
     // Méthode
 

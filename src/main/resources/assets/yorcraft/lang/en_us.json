@@ -1,6 +1,12 @@
 {
   "item.yorcraft.pink_garnet": "Pink Garnet",
   "item.yorcraft.bacon": "Bacon",
+  "item.yorcraft.wheat_flour": "Wheat Flour",
+  "item.yorcraft.dough": "Dough",
+
+  "item.yorcraft.tomato": "Tomato",
+  "item.yorcraft.tomato_seeds": "Tomato Seeds",
+  "block.yorcraft.tomato_crop": "Tomato Crop",
 
   "block.yorcraft.carrot_crate": "Carrot Crate",
   "item.yorcraft.carrot_crate": "Carrot Crate",

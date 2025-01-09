@@ -2,6 +2,9 @@ package net.yorbil.yorcraft.block;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.CropBlock;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -11,10 +14,24 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Pair;
 import net.yorbil.yorcraft.Yorcraft;
+import net.yorbil.yorcraft.block.custom.TomatoCropBlock;
 
 import static net.yorbil.yorcraft.item.ModItems.registerItem;
 
 public class ModBlocks {
+
+
+//    public static final Pair<Block, BlockItem> TOMATO_SEEDS = registerBlockWithItem("tomato_seeds", Block::new);
+
+
+// GOOD
+    public static final Block TOMATO_CROP = registerBlock("tomato_crop", settings -> new TomatoCropBlock(
+            settings.noCollision()
+                    .ticksRandomly()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CROP)
+                    .pistonBehavior(PistonBehavior.DESTROY)
+    ));
 
 //    public static final Pair<Block,BlockItem> CARROT_CRATE = registerBlockWithItem("carrot_crate", Block::new);
 
@@ -22,6 +39,9 @@ public class ModBlocks {
             settings.strength(0.5f)
                     .sounds(BlockSoundGroup.BAMBOO_WOOD)
     ));
+
+
+
 
     public static Block registerBlock(String name, AbstractBlock.Settings base) {
         return registerBlock(name, Block::new, base);

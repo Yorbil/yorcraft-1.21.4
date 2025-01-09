@@ -7,6 +7,7 @@ import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
 import net.minecraft.client.data.TexturedModel;
 import net.yorbil.yorcraft.block.ModBlocks;
+import net.yorbil.yorcraft.block.custom.TomatoCropBlock;
 import net.yorbil.yorcraft.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -17,11 +18,16 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSingleton(ModBlocks.CARROT_CRATE.getLeft(), TexturedModel.CUBE_BOTTOM_TOP);
+
+        blockStateModelGenerator.registerCrop(ModBlocks.TOMATO_CROP, TomatoCropBlock.AGE, 0, 1, 2, 3);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
         itemModelGenerator.register(ModItems.BACON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WHEAT_FLOUR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DOUGH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
     }
 }

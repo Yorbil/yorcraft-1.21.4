@@ -1,5 +1,7 @@
 // 1.21.4	-999999999-01-01T00:00:00	Yorcraft/
 ec3a331e27aad5de114a9b57530daca955f57ed0 data/yorcraft/advancement/recipes/food/carrot.json
 4258139dc2caab6545172e5899c472fa6b93a0bf data/yorcraft/advancement/recipes/food/carrot_crate.json
+91b8c6fb4516d1ce4ee09c78cb8dc0253e730a01 data/yorcraft/advancement/recipes/food/dough.json
 6033e5b2b44d5ec4d41ea7711f279e3ac5d3d59c data/yorcraft/recipe/carrot.json
 18f91508889e1932ed47e5567db4170d397de8a0 data/yorcraft/recipe/carrot_crate.json
+d7eebf1bb2b6c157f0d66cd23d2fafa170a5f590 data/yorcraft/recipe/dough.json

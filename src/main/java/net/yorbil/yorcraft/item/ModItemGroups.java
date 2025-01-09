@@ -19,6 +19,10 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.BACON);
+                        entries.add(ModItems.WHEAT_FLOUR);
+                        entries.add(ModItems.DOUGH);
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.TOMATO_SEEDS);
 
                         entries.add(ModBlocks.CARROT_CRATE.getRight());
 

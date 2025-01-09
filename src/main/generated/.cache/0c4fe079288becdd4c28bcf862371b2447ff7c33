@@ -1,8 +1,21 @@
 // 1.21.4	-999999999-01-01T00:00:00	Yorcraft/Model Definitions
 f75494b8eb09a26963b0c7998ebb931cf4d5958d assets/yorcraft/blockstates/carrot_crate.json
+fe52ad64221fa6569b7e22d9d70903f853c4b7ae assets/yorcraft/blockstates/tomato_crop.json
 0fe7fbb79659ec1dae2ccd2ab0ad266e0e3a2665 assets/yorcraft/items/bacon.json
 74abe20fe5a37a2d706907383e3a9ba05ee57daa assets/yorcraft/items/carrot_crate.json
+d8b555610fe9dbb6a3ee1cfbdb5c878b826185c3 assets/yorcraft/items/dough.json
 1aa80dcf20c67c7ac6d35d3fa09654490ff4daf8 assets/yorcraft/items/pink_garnet.json
+2f42e2e6897e10574b687db17476e9cfe7797946 assets/yorcraft/items/tomato.json
+781749bcb3b32b5ddec0074aa30e73d97a58bff6 assets/yorcraft/items/tomato_seeds.json
+f4a17736671ce36c1c6540c3cf6828dab9797cd3 assets/yorcraft/items/wheat_flour.json
 8268bae5277ce0793263d34149032616983c4b52 assets/yorcraft/models/block/carrot_crate.json
+712860feb934a0ed6e1a444852f850fa8003b31a assets/yorcraft/models/block/tomato_crop_stage0.json
+a5ffc5568433309647d3a0f92221478d1586ca6f assets/yorcraft/models/block/tomato_crop_stage1.json
+28461f447a3515200c697480dc8f3618353e8aa2 assets/yorcraft/models/block/tomato_crop_stage2.json
+fc4db91dbcde32a90c1e71982a29e531cd0c8c45 assets/yorcraft/models/block/tomato_crop_stage3.json
 4eb9f120be0c265a78c8aee51787a725cec09141 assets/yorcraft/models/item/bacon.json
+864216bb6847b1db44a380d1b7bc93adea530dcd assets/yorcraft/models/item/dough.json
 87234ab4e5873a0f3dc6139487846b09442dc353 assets/yorcraft/models/item/pink_garnet.json
+6c35e310cad740508ec1c1b8e8f506309613dc66 assets/yorcraft/models/item/tomato.json
+58ad129395069bc5cd156a9b53343b10ae3c5b5f assets/yorcraft/models/item/tomato_seeds.json
+36bd0e8aa27065e65ee2d9481e2d57d7e2ef7bd8 assets/yorcraft/models/item/wheat_flour.json

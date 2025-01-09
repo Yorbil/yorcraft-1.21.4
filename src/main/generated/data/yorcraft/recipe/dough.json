@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "yorcraft:wheat_flour",
+    "yorcraft:wheat_flour",
+    "minecraft:potion"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yorcraft:dough"
+  }
+}
