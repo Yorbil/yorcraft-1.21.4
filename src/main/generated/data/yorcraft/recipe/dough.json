@@ -4,10 +4,16 @@
   "ingredients": [
     "yorcraft:wheat_flour",
     "yorcraft:wheat_flour",
-    "minecraft:potion"
+    "yorcraft:wheat_flour",
+    "yorcraft:wheat_flour",
+    "yorcraft:wheat_flour",
+    "yorcraft:wheat_flour",
+    "yorcraft:wheat_flour",
+    "yorcraft:wheat_flour",
+    "minecraft:water_bucket"
   ],
   "result": {
-    "count": 1,
+    "count": 24,
     "id": "yorcraft:dough"
   }
 }

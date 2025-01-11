@@ -25,9 +25,20 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.PINK_GARNET, Models.GENERATED);
-        itemModelGenerator.register(ModItems.BACON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_BACON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_BACON, Models.GENERATED);
         itemModelGenerator.register(ModItems.WHEAT_FLOUR, Models.GENERATED);
         itemModelGenerator.register(ModItems.DOUGH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_BREAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_BUN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BUN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TOP_BUN, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BOTTOM_BUN, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.RAW_GROUND_BEEF, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_BEEF_PATTY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_BEEF_PATTY, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
     }
 }

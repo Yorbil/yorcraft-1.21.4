@@ -6,7 +6,6 @@ import net.minecraft.block.CropBlock;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
-import net.yorbil.yorcraft.block.ModBlocks;
 import net.yorbil.yorcraft.item.ModItems;
 
 public class TomatoCropBlock extends CropBlock {

@@ -24,9 +24,19 @@ public class ModItems {
     public static final Item PINK_GARNET = registerItem("pink_garnet", Item::new);
     public static final Item WHEAT_FLOUR = registerItem("wheat_flour", Item::new);
     public static final Item DOUGH = registerItem("dough", Item::new);
+    public static final Item RAW_BREAD = registerItem("raw_bread", Item::new);
+    public static final Item RAW_BUN = registerItem("raw_bun", Item::new);
+    public static final Item TOP_BUN = registerItem("top_bun", (settings) -> new Item(settings.food(ModFoodComponents.Top_Bun)));
+    public static final Item BOTTOM_BUN = registerItem("bottom_bun", (settings) -> new Item(settings.food(ModFoodComponents.Bottom_Bun)));
+    public static final Item BUN = registerItem("bun", (settings) -> new Item(settings.food(ModFoodComponents.Bun).recipeRemainder(ModItems.TOP_BUN)));
 
     // Enregistrement des items complexes.
-    public static final Item BACON = registerItem("bacon", (settings) -> new Item(settings.food(ModFoodComponents.Bacon)));
+    public static final Item RAW_BACON = registerItem("raw_bacon", (settings) -> new Item(settings.food(ModFoodComponents.Raw_Bacon)));
+    public static final Item COOKED_BACON = registerItem("cooked_bacon", (settings) -> new Item(settings.food(ModFoodComponents.Cooked_Bacon)));
+
+    public static final Item RAW_GROUND_BEEF = registerItem("raw_ground_beef", (settings) -> new Item(settings.food(ModFoodComponents.Raw_Ground_Beef)));
+    public static final Item RAW_BEEF_PATTY = registerItem("raw_beef_patty", (settings) -> new Item(settings.food(ModFoodComponents.Raw_Beef_Patty)));
+    public static final Item COOKED_BEEF_PATTY = registerItem("cooked_beef_patty", (settings) -> new Item(settings.food(ModFoodComponents.Cooked_Beef_Patty)));
 
     public static final Item TOMATO = registerItem("tomato", (settings) -> new Item(settings.food(ModFoodComponents.Tomato)));
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", settings -> new BlockItem(ModBlocks.TOMATO_CROP, settings.useItemPrefixedTranslationKey()));

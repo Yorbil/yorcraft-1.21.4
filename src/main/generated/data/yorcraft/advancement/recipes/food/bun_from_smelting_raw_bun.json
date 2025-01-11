@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_bun": {
+      "conditions": {
+        "items": [
+          {
+            "items": "yorcraft:raw_bun"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:bun_from_smelting_raw_bun"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_bun"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:bun_from_smelting_raw_bun"
+    ]
+  }
+}

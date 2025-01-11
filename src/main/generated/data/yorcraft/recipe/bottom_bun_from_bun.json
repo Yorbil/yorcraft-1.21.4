@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "TOP&BOTTOM_BUN",
+  "ingredients": [
+    "yorcraft:bun"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yorcraft:bottom_bun"
+  }
+}

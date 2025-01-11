@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "yorcraft:item/bacon"
+    "layer0": "yorcraft:item/cooked_beef_patty"
   }
 }

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "group": "COOKED_BEEF_PATTY",
+  "ingredient": "yorcraft:raw_beef_patty",
+  "result": {
+    "id": "yorcraft:cooked_beef_patty"
+  }
+}

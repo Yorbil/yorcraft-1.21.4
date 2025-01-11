@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "group": "BREAD_GROUP",
+  "ingredient": "yorcraft:raw_bread",
+  "result": {
+    "id": "minecraft:bread"
+  }
+}

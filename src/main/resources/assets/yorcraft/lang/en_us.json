@@ -1,8 +1,18 @@
 {
   "item.yorcraft.pink_garnet": "Pink Garnet",
-  "item.yorcraft.bacon": "Bacon",
+  "item.yorcraft.raw_bacon": "Raw Bacon",
+  "item.yorcraft.cooked_bacon": "Cooked Bacon",
   "item.yorcraft.wheat_flour": "Wheat Flour",
   "item.yorcraft.dough": "Dough",
+  "item.yorcraft.raw_bread": "Raw Bread",
+  "item.yorcraft.raw_bun": "Raw Bun",
+  "item.yorcraft.bun": "Bun",
+  "item.yorcraft.top_bun": "Top Bun",
+  "item.yorcraft.bottom_bun": "Bottom Bun",
+
+  "item.yorcraft.raw_ground_beef": "Raw Ground Beef",
+  "item.yorcraft.raw_beef_patty": "Raw Beef Patty",
+  "item.yorcraft.cooked_beef_patty": "Cooked Beef Patty",
 
   "item.yorcraft.tomato": "Tomato",
   "item.yorcraft.tomato_seeds": "Tomato Seeds",
