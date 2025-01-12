@@ -30,6 +30,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             @Override
             public void generate() {
 
+
+
+
                 //Carrot Crate
                 offerReversibleCompactingRecipes(RecipeCategory.FOOD, Items.CARROT, RecipeCategory.FOOD, ModBlocks.CARROT_CRATE.getRight());
 
@@ -82,10 +85,75 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
                 offerMultipleOptions(RecipeSerializer.SMOKING, SmokingRecipe::new, COOKED_BEEF_PATTY, RecipeCategory.FOOD, ModItems.COOKED_BEEF_PATTY, 0.35f, 100, "COOKED_BEEF_PATTY", "_from_smoking");
 
+                //Burgers
+                //HAMBURGER
+                createShapeless(RecipeCategory.FOOD, ModItems.HAMBURGER)
+                        .input(ModItems.TOP_BUN)
+                        .input(ModItems.COOKED_BEEF_PATTY)
+                        .input(ModItems.BOTTOM_BUN)
+                        .criterion(hasItem(ModItems.BUN), conditionsFromItem(ModItems.BUN)).offerTo(exporter);
+                //DOUBLE_HAMBURGER
+                createShapeless(RecipeCategory.FOOD, ModItems.DOUBLE_HAMBURGER)
+                        .input(ModItems.HAMBURGER)
+                        .input(ModItems.COOKED_BEEF_PATTY)
+                        .criterion(hasItem(ModItems.HAMBURGER), conditionsFromItem(ModItems.HAMBURGER)).offerTo(exporter);
+                //TRIPLE_HAMBURGER
+                createShapeless(RecipeCategory.FOOD, ModItems.TRIPLE_HAMBURGER)
+                        .input(ModItems.HAMBURGER)
+                        .input(ModItems.COOKED_BEEF_PATTY, 2)
+                        .criterion(hasItem(ModItems.HAMBURGER), conditionsFromItem(ModItems.HAMBURGER)).offerTo(exporter);
+                //BACON_HAMBURGER
+                createShapeless(RecipeCategory.FOOD, ModItems.BACON_HAMBURGER)
+                        .input(ModItems.HAMBURGER)
+                        .input(ModItems.COOKED_BACON)
+                        .criterion(hasItem(ModItems.HAMBURGER), conditionsFromItem(ModItems.HAMBURGER)).offerTo(exporter);
+                //DOUBLE_BACON_HAMBURGER
+                createShapeless(RecipeCategory.FOOD, ModItems.DOUBLE_BACON_HAMBURGER)
+                        .input(ModItems.HAMBURGER)
+                        .input(ModItems.COOKED_BACON)
+                        .input(ModItems.COOKED_BEEF_PATTY)
+                        .criterion(hasItem(ModItems.HAMBURGER), conditionsFromItem(ModItems.HAMBURGER)).offerTo(exporter);
 
 
 
-
+                //RECIPE VANILLA
+                //SADDLE
+                createShaped(RecipeCategory.COMBAT, Items.SADDLE)
+                        .input('C', Items.LEATHER)
+                        .input('L', Items.LEAD)
+                        .input('I', Items.IRON_INGOT)
+                        .pattern("CCC")
+                        .pattern("L L")
+                        .pattern("I I")
+                        .criterion(hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER)).offerTo(exporter);
+                //Horse Armor
+//                createShaped(RecipeCategory.COMBAT, Items.LEATHER_HORSE_ARMOR)
+//                      .input('W', Items.RED_WOOL)
+//                        .pattern(" WL")
+//                        .pattern("LLL")
+//                        .pattern("L L")
+//                        .criterion(hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER)).offerTo(exporter);
+//                createShaped(RecipeCategory.COMBAT, Items.IRON_HORSE_ARMOR)
+//                        .input('I', Items.IRON_INGOT)
+//                        .input('W', Items.BLACK_WOOL)
+//                        .pattern(" WI")
+//                        .pattern("III")
+//                        .pattern("I I")
+//                        .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT)).offerTo(exporter);
+                createShaped(RecipeCategory.COMBAT, Items.GOLDEN_HORSE_ARMOR)
+                        .input('G', Items.GOLD_INGOT)
+                        .input('W', Items.RED_WOOL)
+                        .pattern(" WG")
+                        .pattern("GGG")
+                        .pattern("G G")
+                        .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT)).offerTo(exporter);
+                createShaped(RecipeCategory.COMBAT, Items.DIAMOND_HORSE_ARMOR)
+                        .input('D', Items.DIAMOND)
+                        .input('W', Items.YELLOW_WOOL)
+                        .pattern(" WD")
+                        .pattern("DDD")
+                        .pattern("D D")
+                        .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND)).offerTo(exporter);
 
             }
         };

@@ -14,4 +14,11 @@ public class ModFoodComponents {
     public static final FoodComponent Bun = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
     public static final FoodComponent Top_Bun = new FoodComponent.Builder().nutrition(1).saturationModifier(0.6f).build();
     public static final FoodComponent Bottom_Bun = new FoodComponent.Builder().nutrition(1).saturationModifier(0.6f).build();
+
+    //Burgers
+    public static final FoodComponent Hamburger = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
+    public static final FoodComponent Double_Hamburger = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
+    public static final FoodComponent Triple_Hamburger = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
+    public static final FoodComponent Bacon_Hamburger = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
+    public static final FoodComponent Double_Bacon_Hamburger = new FoodComponent.Builder().nutrition(3).saturationModifier(0.6f).build();
 }

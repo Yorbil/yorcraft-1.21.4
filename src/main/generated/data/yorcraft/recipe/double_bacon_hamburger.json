@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "yorcraft:hamburger",
+    "yorcraft:cooked_bacon",
+    "yorcraft:cooked_beef_patty"
+  ],
+  "result": {
+    "count": 1,
+    "id": "yorcraft:double_bacon_hamburger"
+  }
+}

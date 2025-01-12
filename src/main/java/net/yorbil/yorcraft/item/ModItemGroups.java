@@ -17,6 +17,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.RAW_BACON))
                     .displayName(Text.translatable("itemgroup.yorcraft.yorcraft_items_group"))
                     .entries((displayContext, entries) -> {
+
+                        //Items
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_BACON);
                         entries.add(ModItems.COOKED_BACON);
@@ -28,6 +30,9 @@ public class ModItemGroups {
                         entries.add(ModItems.TOP_BUN);
                         entries.add(ModItems.BOTTOM_BUN);
 
+
+
+
                         entries.add(ModItems.RAW_GROUND_BEEF);
                         entries.add(ModItems.RAW_BEEF_PATTY);
                         entries.add(ModItems.COOKED_BEEF_PATTY);
@@ -35,6 +40,16 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.TOMATO_SEEDS);
 
+                        //Burgers
+                        entries.add(ModItems.HAMBURGER);
+                        entries.add(ModItems.DOUBLE_HAMBURGER);
+                        entries.add(ModItems.TRIPLE_HAMBURGER);
+                        entries.add(ModItems.BACON_HAMBURGER);
+                        entries.add(ModItems.DOUBLE_BACON_HAMBURGER);
+
+
+
+                        //Block
                         entries.add(ModBlocks.CARROT_CRATE.getRight());
 
                     }).build());

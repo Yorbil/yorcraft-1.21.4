@@ -30,6 +30,16 @@ public class ModItems {
     public static final Item BOTTOM_BUN = registerItem("bottom_bun", (settings) -> new Item(settings.food(ModFoodComponents.Bottom_Bun)));
     public static final Item BUN = registerItem("bun", (settings) -> new Item(settings.food(ModFoodComponents.Bun).recipeRemainder(ModItems.TOP_BUN)));
 
+    //Burgers
+    public static final Item HAMBURGER = registerItem("hamburger", (settings) -> new Item(settings.food(ModFoodComponents.Hamburger)));
+    public static final Item DOUBLE_HAMBURGER = registerItem("double_hamburger", (settings) -> new Item(settings.food(ModFoodComponents.Double_Hamburger)));
+    public static final Item TRIPLE_HAMBURGER = registerItem("triple_hamburger", (settings) -> new Item(settings.food(ModFoodComponents.Triple_Hamburger)));
+    public static final Item BACON_HAMBURGER = registerItem("bacon_hamburger", (settings) -> new Item(settings.food(ModFoodComponents.Bacon_Hamburger)));
+    public static final Item DOUBLE_BACON_HAMBURGER = registerItem("double_bacon_hamburger", (settings) -> new Item(settings.food(ModFoodComponents.Double_Bacon_Hamburger)));
+
+
+
+
     // Enregistrement des items complexes.
     public static final Item RAW_BACON = registerItem("raw_bacon", (settings) -> new Item(settings.food(ModFoodComponents.Raw_Bacon)));
     public static final Item COOKED_BACON = registerItem("cooked_bacon", (settings) -> new Item(settings.food(ModFoodComponents.Cooked_Bacon)));
